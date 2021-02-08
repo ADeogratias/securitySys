@@ -29,4 +29,4 @@ The chauffeur allows drivers to register and get hired by customers needing thei
 
       Landing page for all the users accessing the system. Home page view and this is where  you are able to log-in.
       
-![home_page_image](https://github.com/ADeogratias/the_chauffeur/blob/master/img/the%20chauffeurimg1.png)
+![dashboard](https://github.com/ADeogratias/securitySys/blob/master/images/secsystem_admin_dashboard.JPG)
