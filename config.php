@@ -1,32 +1,16 @@
 <?php 
-class MrD
+// DB credentials.
+define('DB_HOST','localhost');
+define('DB_USER','root');
+define('DB_PASS','');
+define('DB_NAME','smart_security');
+// Establish database connection.
+try
 {
-  public $server = "localhost";
-  public $user = "root";
-  public $pass = "";
-  public $dbname = "smart_security";
-  public $conn;
-  
-  public function __construct()
-  {
-  	$this->conn= new mysqli($this->server,$this->user,$this->pass,$this->dbname);
-  	if($this->conn->connect_error)
-  	{
-  		die("connection failed");
-  	}
-  }
- 	public function insertQr($qrUname,$final,$qrimage,$qrlink)
- 	{
- 			$sql = "INSERT INTO qrcodes(qrUsername,qrContent,qrImg,qrlink) VALUES('$qrUname','$final','$qrimage','$qrlink')";
- 			$query = $this->conn->query($sql);
- 			return $query;
-
- 	
- 	}
- 	public function displayImg()
- 	{
- 		$sql = "SELECT qrimg,qrlink from qrcodes where qrimg='$qrimage'";
-
- 	}
+$dbh = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USER, DB_PASS,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
 }
-$mrDe = new MrD();
+catch (PDOException $e)
+{
+exit("Error: " . $e->getMessage());
+}
+?>
