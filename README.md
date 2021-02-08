@@ -30,3 +30,7 @@ The chauffeur allows drivers to register and get hired by customers needing thei
       Landing page for all the users accessing the system. Home page view and this is where  you are able to log-in.
       
 ![dashboard](https://github.com/ADeogratias/securitySys/blob/master/images/secsystem_admin_dashboard.JPG)
+
+      Landing page for all the users accessing the system. Home page view and this is where  you are able to log-in.
+
+![dashboard](https://github.com/ADeogratias/securitySys/blob/master/images/secsystem_qrcode-scanning.JPG)
