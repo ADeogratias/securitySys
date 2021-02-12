@@ -12,7 +12,7 @@ A library for using the webcam is from another source code project
   * PHP
   * MySQL
    
- #### Requirement ####
+ #### Requirements ####
    * XAMPP
    * Web Browser(Opera, Chrome)
    * OS (Windows, Linux)
