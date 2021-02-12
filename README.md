@@ -21,7 +21,8 @@ A library for using the webcam is from another source code project
 
   #### Dashboard ####
 
-      Admin has access to a summary of what is going on in the system. A dashboard with all the different things happening in the system.
+      Admin has access to a summary of what is going on in the system. 
+      A dashboard with all the different things happening in the system.
       
 ![dashboard](https://github.com/ADeogratias/securitySys/blob/master/images/secsystem_admin_dashboard.JPG)
 
