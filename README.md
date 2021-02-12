@@ -28,7 +28,9 @@ A library for using the webcam is from another source code project
 
   #### QR Code Scanning Page####
 
-      The QR code printed on the report slip provided to the client after completing a payment. Scanning the QR codes returns details of that payment if the payment is truly part of the system. Otherwise, the system tells you that your QR codes are not known to the system.
+      The QR code printed on the report slip provided to the client after completing a payment.
+      Scanning the QR codes returns details of that payment if the payment is truly part of the system. 
+      Otherwise, the system tells you that your QR codes are not known to the system.
 
 ![dashboard](https://github.com/ADeogratias/securitySys/blob/master/images/secsystem_qrcode-scanning.JPG)
 
